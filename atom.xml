@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Shannonwu.github.io</id>
     <title>空山夜语</title>
-    <updated>2019-06-15T20:44:14.192Z</updated>
+    <updated>2019-06-15T20:45:46.751Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Shannonwu.github.io"/>
     <link rel="self" href="https://Shannonwu.github.io/atom.xml"/>
@@ -10,6 +10,31 @@
     <logo>https://Shannonwu.github.io/images/avatar.png</logo>
     <icon>https://Shannonwu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 空山夜语</rights>
+    <entry>
+        <title type="html"><![CDATA[空山夜语]]></title>
+        <id>https://Shannonwu.github.io/post/introduction</id>
+        <link href="https://Shannonwu.github.io/post/introduction">
+        </link>
+        <updated>2019-06-15T20:21:04.000Z</updated>
+        <summary type="html"><![CDATA[<p>这是一个安静写作的博客....</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>这是一个安静写作的博客....</p>
+<!-- more -->
+<p><img src="https://Shannonwu.github.io/post-images/1560631525008.jpeg" alt="">
+这是一个安静写作的博客....
+主要是为了逃避豆瓣而来...
+放了一些书、影、音...</p>
+<p>我是一名：
+占星师
+精神分析家
+诗人
+塔罗师
+数码玩家
+佛道实修者
+...</p>
+<p>撒花</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[姜余：《儿童精神分析五讲》]]></title>
         <id>https://Shannonwu.github.io/post/children-psychoanalysis</id>
