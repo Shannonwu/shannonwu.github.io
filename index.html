@@ -1,148 +1,120 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>空山夜语</title>
-<meta name="description" content="空山不见人，但闻人语响。">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
+<link rel="shortcut icon" href="https://Shannonwu.github.io/favicon.ico?v=1560631192372">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://Shannonwu.github.io/favicon.ico?v=1560628412153">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://Shannonwu.github.io/styles/main.css">
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
 
   </head>
   <body>
-    <div id="app" class="main">
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://Shannonwu.github.io">
+  <img class="avatar" src="https://Shannonwu.github.io/images/avatar.png?v=1560631192372" alt="">
+  </a>
+  <h1 class="site-title">
+    空山夜语
+  </h1>
+  <p class="site-description">
+    空山不见人，但闻人语响。
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="https://Shannonwu.github.io" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="https://Shannonwu.github.io/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="https://Shannonwu.github.io/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="https://Shannonwu.github.io/post/about/" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
 
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://Shannonwu.github.io">
-        <img src="https://Shannonwu.github.io/images/avatar.png?v=1560628412153" class="site-logo">
-        <h1 class="site-title">空山夜语</h1>
+    
+        <div class="post-container">
+  
+    <article class="post">
+      <a href="https://Shannonwu.github.io/post/children-psychoanalysis">
+        <h2 class="post-title">姜余：《儿童精神分析五讲》</h2>
       </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
+      <div class="post-info">
+        <time class="post-time">
+          · 2019-06-16 ·
+        </time>
+        
+          <a href="https://Shannonwu.github.io/tag/_psychoanalysis" class="post-tag">
+            # 精神分析
+          </a>
+        
       </div>
-    </div>
-    <div>
       
-        
-          <a href="/" class="site-nav" target="_blank">
-            首页
-          </a>
-        
+        <a href="https://Shannonwu.github.io/post/children-psychoanalysis" class="post-feature-image" style="background-image: url('https://Shannonwu.github.io/post-images/children-psychoanalysis.jpeg')">
+        </a>
       
+      <div class="post-abstract">
         
-          <a href="/archives" class="site-nav" target="_blank">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav" target="_blank">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav" target="_blank">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      空山不见人，但闻人语响。
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://Shannonwu.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
+      </di>
+    </article>
+  
 </div>
 
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://Shannonwu.github.io/post/hello-gridea">
-                  <h2 class="post-title">Hello Gridea</h2>
-                </a>
-                <div class="post-date">
-                  2018-12-12
-                </div>
-                <div class="post-abstract">
-                  <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-
-                </div>
-              </div>
-              
-                <a class="right" href="https://Shannonwu.github.io/post/hello-gridea">
-                  <div class="feature-container" style="background-image: url('https://Shannonwu.github.io/post-images/hello-gridea.png')">
-                  </div>
-                </a>
-              
-            </article>
-          
-
-          <div class="pagination-container">
+    
+        <div class="pagination-container">
   
   
 </div>
 
-        </div>
-      </div>
-    </div>
+    
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="https://Shannonwu.github.io/atom.xml" target="_blank">RSS</a>
+</div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-<script type="application/javascript">
-
-AOS.init();
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+<script>
+  hljs.initHighlightingOnLoad()
 </script>
 
-
-
-
+      </div>
+    </div>
   </body>
 </html>
