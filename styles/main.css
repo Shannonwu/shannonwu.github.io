@@ -774,3 +774,20 @@ td {
 .hljs-strong {
   font-weight: bold;
 }
+
+      .post-detail .post .post-content p {
+        font-size: 18px;
+      }
+    
+      body {
+        color: #495057;
+      }
+    
+      a {
+        color: #1971c2;
+      }
+    
+      a:hover {
+        color: #5f3dc4;
+      }
+    
