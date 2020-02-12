@@ -1,119 +1,105 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>姜余：《儿童精神分析五讲》札记Ⅰ | 空山夜语</title>
-<meta name="description" content="空山不见人，但闻人语响。">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
+<link rel="shortcut icon" href="https://shannonwu.github.io/favicon.ico?v=1581543798744">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://Shannonwu.github.io/favicon.ico?v=1574751866289">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://Shannonwu.github.io/styles/main.css">
+<link rel="stylesheet" href="https://shannonwu.github.io/styles/main.css">
 
-
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
-
-  
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
 
   </head>
   <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://Shannonwu.github.io">
-        <img src="https://Shannonwu.github.io/images/avatar.png?v=1574751866289" class="site-logo">
-        <h1 class="site-title">空山夜语</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://shannonwu.github.io">
+  <img class="avatar" src="https://shannonwu.github.io/images/avatar.png?v=1581543798744" alt="">
+  </a>
+  <h1 class="site-title">
+    空山夜语
+  </h1>
+  <p class="site-description">
+    空山不见人，但闻人语响。
+  </p>
+  <div class="menu-container">
+    
       
-        
-          <a href="https://Shannonwu.github.io" class="site-nav" target="_blank">
-            首页
-          </a>
-        
+        <a href="https://Shannonwu.github.io" class="menu" target="_blank">
+          首页
+        </a>
       
-        
-          <a href="https://Shannonwu.github.io/archives" class="site-nav" target="_blank">
-            归档
-          </a>
-        
+    
       
-        
-          <a href="https://Shannonwu.github.io/tags" class="site-nav" target="_blank">
-            标签
-          </a>
-        
+        <a href="https://Shannonwu.github.io/archives" class="menu" target="_blank">
+          归档
+        </a>
       
-        
-          <a href="https://Shannonwu.github.io/post/introduction/" class="site-nav" target="_blank">
-            关于
-          </a>
-        
+    
       
-    </div>
+        <a href="https://Shannonwu.github.io/tags" class="menu" target="_blank">
+          标签
+        </a>
+      
+    
+      
+        <a href="https://Shannonwu.github.io/post/introduction/" class="menu" target="_blank">
+          关于
+        </a>
+      
+    
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
+  <div class="social-container">
+    
       
-        
-          <a class="social-link" href="https://github.com/Shannonwu" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        
+        <a href="https://github.com/Shannonwu" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
       
-        
+    
       
-        
-          <a class="social-link" href="https://weibo.com/1590443300/profile?topnav=1&amp;wvr=6" target="_blank">
-            <i class="fab fa-weibo"></i>
-          </a>
-        
+    
       
-        
-          <a class="social-link" href="https://www.zhihu.com/people/wu-yi-hua-324/activities" target="_blank">
-            <i class="fab fa-zhihu"></i>
-          </a>
-        
+        <a href="https://weibo.com/1590443300/profile?topnav=1&amp;wvr=6" target="_blank">
+          <i class="fab fa-weibo"></i>
+        </a>
       
-        
+    
       
-    </div>
-    <div class="site-description">
-      空山不见人，但闻人语响。
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://Shannonwu.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
+        <a href="https://www.zhihu.com/people/wu-yi-hua-324/activities" target="_blank">
+          <i class="fab fa-zhihu"></i>
+        </a>
+      
+    
+      
+    
   </div>
 </div>
 
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">姜余：《儿童精神分析五讲》札记Ⅰ</h2>
-            <div class="post-date">2019-06-16</div>
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              姜余：《儿童精神分析五讲》札记Ⅰ
+            </h2>
+            <div class="post-info">
+              <time class="post-time">
+                · 2019-06-16 ·
+              </time>
+              
+                <a href="https://shannonwu.github.io/tag/_psychoanalysis" class="post-tag">
+                  # 精神分析
+                </a>
+              
+            </div>
             
-              <div class="feature-container" style="background-image: url('https://Shannonwu.github.io/post-images/children-psychoanalysis Ⅰ.jpeg')">
+              <div class="post-feature-image" style="background-image: url('https://shannonwu.github.io/post-images/children-psychoanalysis Ⅰ.jpeg')">
               </div>
             
             <div class="post-content">
@@ -140,73 +126,49 @@
 <p>这个世界不缺乏那些把世界拒之门外的人，人们大声的呼喊、不断地言说、乃至歌唱、乃至疯狂，无不是因为这个世界上缺乏人真正愿意静下心来，倾听他者的声音？很多人说中国文论、中国文学、中国科研的失语（这是很多年以前的说法，不知道现在还能不能提），可是，问题的关键难道不是我们自己都不肯倾听他人的声音吗？精神分析，正是倾听的艺术，是倾听万物的艺术，是宁静而沉静的倾听与回应的艺术。暴力无法改变人心，但倾听可以，我想这就是我对于甘地、室利·阿罗频多、泰戈尔充满敬意，对印度这个古老文明充满敬意的原因。当一个人在受难时，他并不期待着回击、并不以被攻击的同样的方式加以反抗，他们澄净地以宁静地抵抗这个世界强加于其身上的痛苦，这份宁静的力量，则超越于这个世界上所有的辞说，在沉静的大地面前，所有的言说都显现出其失效的部分。我想这就是我看待精神分析和人生的根本性态度，以宁静的倾听，涵容万物。我常常会陷入悖论中，我所憎恨的，最终却以最深的方式拯救我。或许我们所恨的，正是我们一度曾经迷恋的。也正是这索求，令生命陷入无止境的徒劳与苦役中。人生的苦役还将绵延，但那份宁静的倾听之力却不会终结，因它终将通向人生的终结处，并绵延亘古。</p>
 
             </div>
-            
-              <div class="tag-container">
-                
-                  <a href="https://Shannonwu.github.io/tag/_psychoanalysis" class="tag">
-                    精神分析
-                  </a>
-                
-              </div>
-            
-            
-
-            
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
-
-              
-            
-
-          </div>
-
+          </article>
         </div>
-      </div>
-    </div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        
 
-<script type="application/javascript">
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
-AOS.init();
+<div id="gitalk-container"></div>
 
-hljs.initHighlightingOnLoad()
+<script>
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+  var gitalk = new Gitalk({
+    clientID: '8050f9e2ddcf03002f2a',
+    clientSecret: 'b78f1303bf522d5f19c3c12ce7b437058b331ed5',
+    repo: 'Shannonwu.github.io',
+    owner: 'Shannonwu',
+    admin: ['Shannonwu'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
 
 </script>
 
+          
 
+          
+        
 
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script>
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="https://shannonwu.github.io/atom.xml" target="_blank">RSS</a>
+</div>
 
-      var gitalk = new Gitalk({
-        clientID: '8050f9e2ddcf03002f2a',
-        clientSecret: 'b78f1303bf522d5f19c3c12ce7b437058b331ed5',
-        repo: 'Shannonwu.github.io',
-        owner: 'Shannonwu',
-        admin: ['Shannonwu'],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
 
-      gitalk.render('gitalk-container')
-
-    </script>
-  
-
-  
-
-
-
-
+      </div>
+    </div>
   </body>
 </html>

@@ -1,223 +1,227 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
-
+  <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>精神分析 | 空山夜语</title>
-<meta name="description" content="空山不见人，但闻人语响。">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
+<link rel="shortcut icon" href="https://shannonwu.github.io/favicon.ico?v=1581543798744">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://Shannonwu.github.io/favicon.ico?v=1574751866289">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://Shannonwu.github.io/styles/main.css">
+<link rel="stylesheet" href="https://shannonwu.github.io/styles/main.css">
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
 
   </head>
   <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://Shannonwu.github.io">
-        <img src="https://Shannonwu.github.io/images/avatar.png?v=1574751866289" class="site-logo">
-        <h1 class="site-title">空山夜语</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://shannonwu.github.io">
+  <img class="avatar" src="https://shannonwu.github.io/images/avatar.png?v=1581543798744" alt="">
+  </a>
+  <h1 class="site-title">
+    空山夜语
+  </h1>
+  <p class="site-description">
+    空山不见人，但闻人语响。
+  </p>
+  <div class="menu-container">
+    
       
-        
-          <a href="https://Shannonwu.github.io" class="site-nav" target="_blank">
-            首页
-          </a>
-        
+        <a href="https://Shannonwu.github.io" class="menu" target="_blank">
+          首页
+        </a>
       
-        
-          <a href="https://Shannonwu.github.io/archives" class="site-nav" target="_blank">
-            归档
-          </a>
-        
+    
       
-        
-          <a href="https://Shannonwu.github.io/tags" class="site-nav" target="_blank">
-            标签
-          </a>
-        
+        <a href="https://Shannonwu.github.io/archives" class="menu" target="_blank">
+          归档
+        </a>
       
-        
-          <a href="https://Shannonwu.github.io/post/introduction/" class="site-nav" target="_blank">
-            关于
-          </a>
-        
+    
       
-    </div>
+        <a href="https://Shannonwu.github.io/tags" class="menu" target="_blank">
+          标签
+        </a>
+      
+    
+      
+        <a href="https://Shannonwu.github.io/post/introduction/" class="menu" target="_blank">
+          关于
+        </a>
+      
+    
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
+  <div class="social-container">
+    
       
-        
-          <a class="social-link" href="https://github.com/Shannonwu" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        
+        <a href="https://github.com/Shannonwu" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
       
-        
+    
       
-        
-          <a class="social-link" href="https://weibo.com/1590443300/profile?topnav=1&amp;wvr=6" target="_blank">
-            <i class="fab fa-weibo"></i>
-          </a>
-        
+    
       
-        
-          <a class="social-link" href="https://www.zhihu.com/people/wu-yi-hua-324/activities" target="_blank">
-            <i class="fab fa-zhihu"></i>
-          </a>
-        
+        <a href="https://weibo.com/1590443300/profile?topnav=1&amp;wvr=6" target="_blank">
+          <i class="fab fa-weibo"></i>
+        </a>
       
-        
+    
       
-    </div>
-    <div class="site-description">
-      空山不见人，但闻人语响。
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://Shannonwu.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
+        <a href="https://www.zhihu.com/people/wu-yi-hua-324/activities" target="_blank">
+          <i class="fab fa-zhihu"></i>
+        </a>
+      
+    
+      
+    
   </div>
 </div>
 
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <h2 class="current-tag">标签: 精神分析</h2>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://Shannonwu.github.io/post/Hamlet and the crisis of desire">
-                  <h2 class="post-title">哈姆雷特与欲念危机</h2>
-                </a>
-                <div class="post-date">
-                  2019-06-27
-                </div>
-                <div class="post-abstract">
-                  <p>节译自Ehsan Azari, <em>Lacan and the Destiny of Literature</em></p>
-
-                </div>
-              </div>
-              
-                <a class="right" href="https://Shannonwu.github.io/post/Hamlet and the crisis of desire">
-                  <div class="feature-container" style="background-image: url('https://Shannonwu.github.io/post-images/Hamlet and the crisis of desire.jpg')">
-                  </div>
-                </a>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://Shannonwu.github.io/post/Chapter 5 Shakespeare’s Theatre of Desire">
-                  <h2 class="post-title">第五章 莎士比亚戏剧中的欲念</h2>
-                </a>
-                <div class="post-date">
-                  2019-06-27
-                </div>
-                <div class="post-abstract">
-                  <p>节译自Ehsan Azari, <em>Lacan and the Destiny of Literature</em></p>
-
-                </div>
-              </div>
-              
-                <a class="right" href="https://Shannonwu.github.io/post/Chapter 5 Shakespeare’s Theatre of Desire">
-                  <div class="feature-container" style="background-image: url('https://Shannonwu.github.io/post-images/Chapter 5 Shakespeare’s Theatre of Desire.jpg')">
-                  </div>
-                </a>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://Shannonwu.github.io/post/chongqifanyi">
-                  <h2 class="post-title">精神分析文献翻译重启</h2>
-                </a>
-                <div class="post-date">
-                  2019-06-27
-                </div>
-                <div class="post-abstract">
-                  <p>废柴也得有废柴的活法，比如自言自语的翻译...</p>
-
-                </div>
-              </div>
-              
-                <a class="right" href="https://Shannonwu.github.io/post/chongqifanyi">
-                  <div class="feature-container" style="background-image: url('https://Shannonwu.github.io/post-images/chongqifanyi.jpg')">
-                  </div>
-                </a>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://Shannonwu.github.io/post/children-psychoanalysis Ⅰ">
-                  <h2 class="post-title">姜余：《儿童精神分析五讲》札记Ⅰ</h2>
-                </a>
-                <div class="post-date">
-                  2019-06-16
-                </div>
-                <div class="post-abstract">
-                  <p>【吴按】经过这将近两个月的自我定位，我还是决定继续我的精神分析工作，由此，我也想正好逮住我自己终于把自己的人生想清楚以后开始写涉及我自己一直很关注的精神分析和儿童之间的相关主题的札记。这些含混不明的手记正如同我们在分析中体验的那样充满歧义、含混和不确定。因此，希望读者们能开始渐渐体验这种在文本中的不确定性、非大学辞说和反主人辞说性。</p>
-
-                </div>
-              </div>
-              
-                <a class="right" href="https://Shannonwu.github.io/post/children-psychoanalysis Ⅰ">
-                  <div class="feature-container" style="background-image: url('https://Shannonwu.github.io/post-images/children-psychoanalysis Ⅰ.jpeg')">
-                  </div>
-                </a>
-              
-            </article>
-          
-
-          <div class="pagination-container">
-  
-  
-</div>
-
+        <div class="current-tag-container">
+            <h2 class="title">
+                标签：#精神分析
+            </h2> 
         </div>
+        <div class="post-container">
+  
+    <article class="post">
+      <a href="https://shannonwu.github.io/post/Hamlet and the crisis of desire">
+        <h2 class="post-title">哈姆雷特与欲念危机</h2>
+      </a>
+      <div class="post-info">
+        <time class="post-time">
+          · 2019-06-27 ·
+        </time>
+        
+          <a href="https://shannonwu.github.io/tag/translation" class="post-tag">
+            # 翻译
+          </a>
+        
+          <a href="https://shannonwu.github.io/tag/writer&#39;s leture" class="post-tag">
+            # 文学课
+          </a>
+        
+          <a href="https://shannonwu.github.io/tag/_psychoanalysis" class="post-tag">
+            # 精神分析
+          </a>
+        
       </div>
-    </div>
+      
+        <a href="https://shannonwu.github.io/post/Hamlet and the crisis of desire" class="post-feature-image" style="background-image: url('https://shannonwu.github.io/post-images/Hamlet and the crisis of desire.jpg')">
+        </a>
+      
+      <div class="post-abstract">
+        <p>节译自Ehsan Azari, <em>Lacan and the Destiny of Literature</em></p>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      </di>
+    </article>
+  
+    <article class="post">
+      <a href="https://shannonwu.github.io/post/Chapter 5 Shakespeare’s Theatre of Desire">
+        <h2 class="post-title">第五章 莎士比亚戏剧中的欲念</h2>
+      </a>
+      <div class="post-info">
+        <time class="post-time">
+          · 2019-06-27 ·
+        </time>
+        
+          <a href="https://shannonwu.github.io/tag/translation" class="post-tag">
+            # 翻译
+          </a>
+        
+          <a href="https://shannonwu.github.io/tag/writer&#39;s leture" class="post-tag">
+            # 文学课
+          </a>
+        
+          <a href="https://shannonwu.github.io/tag/_psychoanalysis" class="post-tag">
+            # 精神分析
+          </a>
+        
+      </div>
+      
+        <a href="https://shannonwu.github.io/post/Chapter 5 Shakespeare’s Theatre of Desire" class="post-feature-image" style="background-image: url('https://shannonwu.github.io/post-images/Chapter 5 Shakespeare’s Theatre of Desire.jpg')">
+        </a>
+      
+      <div class="post-abstract">
+        <p>节译自Ehsan Azari, <em>Lacan and the Destiny of Literature</em></p>
 
-<script type="application/javascript">
+      </di>
+    </article>
+  
+    <article class="post">
+      <a href="https://shannonwu.github.io/post/chongqifanyi">
+        <h2 class="post-title">精神分析文献翻译重启</h2>
+      </a>
+      <div class="post-info">
+        <time class="post-time">
+          · 2019-06-27 ·
+        </time>
+        
+          <a href="https://shannonwu.github.io/tag/translation" class="post-tag">
+            # 翻译
+          </a>
+        
+          <a href="https://shannonwu.github.io/tag/_psychoanalysis" class="post-tag">
+            # 精神分析
+          </a>
+        
+      </div>
+      
+        <a href="https://shannonwu.github.io/post/chongqifanyi" class="post-feature-image" style="background-image: url('https://shannonwu.github.io/post-images/chongqifanyi.jpg')">
+        </a>
+      
+      <div class="post-abstract">
+        <p>废柴也得有废柴的活法，比如自言自语的翻译...</p>
 
-AOS.init();
+      </di>
+    </article>
+  
+    <article class="post">
+      <a href="https://shannonwu.github.io/post/children-psychoanalysis Ⅰ">
+        <h2 class="post-title">姜余：《儿童精神分析五讲》札记Ⅰ</h2>
+      </a>
+      <div class="post-info">
+        <time class="post-time">
+          · 2019-06-16 ·
+        </time>
+        
+          <a href="https://shannonwu.github.io/tag/_psychoanalysis" class="post-tag">
+            # 精神分析
+          </a>
+        
+      </div>
+      
+        <a href="https://shannonwu.github.io/post/children-psychoanalysis Ⅰ" class="post-feature-image" style="background-image: url('https://shannonwu.github.io/post-images/children-psychoanalysis Ⅰ.jpeg')">
+        </a>
+      
+      <div class="post-abstract">
+        <p>【吴按】经过这将近两个月的自我定位，我还是决定继续我的精神分析工作，由此，我也想正好逮住我自己终于把自己的人生想清楚以后开始写涉及我自己一直很关注的精神分析和儿童之间的相关主题的札记。这些含混不明的手记正如同我们在分析中体验的那样充满歧义、含混和不确定。因此，希望读者们能开始渐渐体验这种在文本中的不确定性、非大学辞说和反主人辞说性。</p>
 
-hljs.initHighlightingOnLoad()
+      </di>
+    </article>
+  
+</div>
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+        <div class="pagination-container">
+  
+  
+</div>
 
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="https://shannonwu.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
 </script>
 
-
-
-
+      </div>
+    </div>
   </body>
 </html>
