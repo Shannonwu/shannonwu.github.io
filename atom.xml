@@ -2,25 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shannonwu.github.io</id>
     <title> 地球荒蛮之所</title>
-    <updated>2020-08-12T18:07:08.271Z</updated>
+    <updated>2020-08-12T18:41:09.539Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://shannonwu.github.io"/>
     <link rel="self" href="https://shannonwu.github.io/atom.xml"/>
-    <subtitle>版权归作者所有，任何形式转载请联系作者。
-作者：Psychopunk（来自豆瓣）
-来源：https://www.douban.com/note/773718079/
-
-彼之双眸、双唇和双手，
-公共高速。
-掌，若卡车停泊，
-在街角低沉隆隆作响。
-眼似银行服务窗口
-外邦交易。
-我爱你身躯的全体
-友朋相拥你的郊区
-农庄点头示意 但我知道小径
-通向你的荒野。
-那虽非我的最爱，
+    <subtitle>那虽非我的最爱，
 但我们几乎常常 孤身于彼方，
 它虽恐怖却死寂。
 
@@ -30,8 +16,8 @@ by 盖里·斯奈德</subtitle>
     <rights>All rights reserved 2020,  地球荒蛮之所</rights>
     <entry>
         <title type="html"><![CDATA[哈姆雷特与欲念危机]]></title>
-        <id>https://shannonwu.github.io/post/Hamlet and the crisis of desire</id>
-        <link href="https://shannonwu.github.io/post/Hamlet and the crisis of desire">
+        <id>https://shannonwu.github.io/post/Hamlet and the crisis of desire/</id>
+        <link href="https://shannonwu.github.io/post/Hamlet and the crisis of desire/">
         </link>
         <updated>2019-06-26T21:55:48.000Z</updated>
         <summary type="html"><![CDATA[<p>节译自Ehsan Azari, <em>Lacan and the Destiny of Literature</em></p>
@@ -65,8 +51,8 @@ by 盖里·斯奈德</subtitle>
     </entry>
     <entry>
         <title type="html"><![CDATA[第五章 莎士比亚戏剧中的欲念]]></title>
-        <id>https://shannonwu.github.io/post/Chapter 5 Shakespeare’s Theatre of Desire</id>
-        <link href="https://shannonwu.github.io/post/Chapter 5 Shakespeare’s Theatre of Desire">
+        <id>https://shannonwu.github.io/post/Chapter 5 Shakespeare’s Theatre of Desire/</id>
+        <link href="https://shannonwu.github.io/post/Chapter 5 Shakespeare’s Theatre of Desire/">
         </link>
         <updated>2019-06-26T19:17:31.000Z</updated>
         <summary type="html"><![CDATA[<p>节译自Ehsan Azari, <em>Lacan and the Destiny of Literature</em></p>
@@ -88,8 +74,8 @@ by 盖里·斯奈德</subtitle>
     </entry>
     <entry>
         <title type="html"><![CDATA[精神分析文献翻译重启]]></title>
-        <id>https://shannonwu.github.io/post/chongqifanyi</id>
-        <link href="https://shannonwu.github.io/post/chongqifanyi">
+        <id>https://shannonwu.github.io/post/chongqifanyi/</id>
+        <link href="https://shannonwu.github.io/post/chongqifanyi/">
         </link>
         <updated>2019-06-26T17:32:56.000Z</updated>
         <summary type="html"><![CDATA[<p>废柴也得有废柴的活法，比如自言自语的翻译...</p>
@@ -105,8 +91,8 @@ by 盖里·斯奈德</subtitle>
     </entry>
     <entry>
         <title type="html"><![CDATA[作家之为责任｜吴老师的文学课]]></title>
-        <id>https://shannonwu.github.io/post/writer&apos;s duty</id>
-        <link href="https://shannonwu.github.io/post/writer&apos;s duty">
+        <id>https://shannonwu.github.io/post/writer&apos;s duty/</id>
+        <link href="https://shannonwu.github.io/post/writer&apos;s duty/">
         </link>
         <updated>2019-06-15T21:37:11.000Z</updated>
         <summary type="html"><![CDATA[<p><strong>做个写作者来提笔写作带给人自由的感受，写作使你得以履行自己的职责。作家之为责任，正是通过最简单的形态，传递神的讯息。</strong></p>
@@ -131,8 +117,8 @@ by 盖里·斯奈德</subtitle>
     </entry>
     <entry>
         <title type="html"><![CDATA[姜余：《儿童精神分析五讲》札记Ⅰ]]></title>
-        <id>https://shannonwu.github.io/post/children-psychoanalysis Ⅰ</id>
-        <link href="https://shannonwu.github.io/post/children-psychoanalysis Ⅰ">
+        <id>https://shannonwu.github.io/post/children-psychoanalysis Ⅰ/</id>
+        <link href="https://shannonwu.github.io/post/children-psychoanalysis Ⅰ/">
         </link>
         <updated>2019-06-15T20:07:17.000Z</updated>
         <summary type="html"><![CDATA[<p>【吴按】经过这将近两个月的自我定位，我还是决定继续我的精神分析工作，由此，我也想正好逮住我自己终于把自己的人生想清楚以后开始写涉及我自己一直很关注的精神分析和儿童之间的相关主题的札记。这些含混不明的手记正如同我们在分析中体验的那样充满歧义、含混和不确定。因此，希望读者们能开始渐渐体验这种在文本中的不确定性、非大学辞说和反主人辞说性。</p>
