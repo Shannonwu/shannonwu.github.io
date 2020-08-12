@@ -2,15 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shannonwu.github.io</id>
     <title> 地球荒蛮之所</title>
-    <updated>2020-08-12T18:42:41.579Z</updated>
+    <updated>2020-08-12T18:47:03.110Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://shannonwu.github.io"/>
     <link rel="self" href="https://shannonwu.github.io/atom.xml"/>
-    <subtitle>那虽非我的最爱，
-但我们几乎常常 孤身于彼方，
-它虽恐怖却死寂。
-
-by 盖里·斯奈德</subtitle>
+    <subtitle>我是在思考诗歌  正在确立什么样的证词  来见证我们这个世纪  by 米沃什</subtitle>
     <logo>https://shannonwu.github.io/images/avatar.png</logo>
     <icon>https://shannonwu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020,  地球荒蛮之所</rights>
