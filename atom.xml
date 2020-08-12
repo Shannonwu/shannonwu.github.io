@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shannonwu.github.io</id>
-    <title>空山夜语</title>
-    <updated>2020-08-12T17:56:13.269Z</updated>
+    <title> 地球荒蛮之所</title>
+    <updated>2020-08-12T18:07:08.271Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://shannonwu.github.io"/>
     <link rel="self" href="https://shannonwu.github.io/atom.xml"/>
-    <subtitle>空山不见人，但闻人语响。</subtitle>
+    <subtitle>版权归作者所有，任何形式转载请联系作者。
+作者：Psychopunk（来自豆瓣）
+来源：https://www.douban.com/note/773718079/
+
+彼之双眸、双唇和双手，
+公共高速。
+掌，若卡车停泊，
+在街角低沉隆隆作响。
+眼似银行服务窗口
+外邦交易。
+我爱你身躯的全体
+友朋相拥你的郊区
+农庄点头示意 但我知道小径
+通向你的荒野。
+那虽非我的最爱，
+但我们几乎常常 孤身于彼方，
+它虽恐怖却死寂。
+
+by 盖里·斯奈德</subtitle>
     <logo>https://shannonwu.github.io/images/avatar.png</logo>
     <icon>https://shannonwu.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, 空山夜语</rights>
+    <rights>All rights reserved 2020,  地球荒蛮之所</rights>
     <entry>
         <title type="html"><![CDATA[哈姆雷特与欲念危机]]></title>
         <id>https://shannonwu.github.io/post/Hamlet and the crisis of desire</id>

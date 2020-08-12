@@ -1,109 +1,155 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Hello Gridea | 空山夜语</title>
-<link rel="shortcut icon" href="https://shannonwu.github.io/favicon.ico?v=1597254964576">
+    <meta charset="utf-8" >
+
+<title>Hello Gridea |  地球荒蛮之所</title>
+<meta name="description" content="版权归作者所有，任何形式转载请联系作者。
+作者：Psychopunk（来自豆瓣）
+来源：https://www.douban.com/note/773718079/
+
+彼之双眸、双唇和双手，
+公共高速。
+掌，若卡车停泊，
+在街角低沉隆隆作响。
+眼似银行服务窗口
+外邦交易。
+我爱你身躯的全体
+友朋相拥你的郊区
+农庄点头示意 但我知道小径
+通向你的荒野。
+那虽非我的最爱，
+但我们几乎常常 孤身于彼方，
+它虽恐怖却死寂。
+
+by 盖里·斯奈德">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://shannonwu.github.io/favicon.ico?v=1597255626773">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://shannonwu.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://shannonwu.github.io">
-  <img class="avatar" src="https://shannonwu.github.io/images/avatar.png?v=1597254964576" alt="">
-  </a>
-  <h1 class="site-title">
-    空山夜语
-  </h1>
-  <p class="site-description">
-    空山不见人，但闻人语响。
-  </p>
-  <div class="menu-container">
-    
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://shannonwu.github.io">
+        <img src="https://shannonwu.github.io/images/avatar.png?v=1597255626773" class="site-logo">
+        <h1 class="site-title"> 地球荒蛮之所</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-        <a href="https://Shannonwu.github.io" class="menu" target="_blank">
-          首页
-        </a>
+        
+          <a href="https://Shannonwu.github.io" class="site-nav" target="_blank">
+            首页
+          </a>
+        
       
-    
+        
+          <a href="https://Shannonwu.github.io/archives" class="site-nav" target="_blank">
+            归档
+          </a>
+        
       
-        <a href="https://Shannonwu.github.io/archives" class="menu" target="_blank">
-          归档
-        </a>
+        
+          <a href="https://Shannonwu.github.io/tags" class="site-nav" target="_blank">
+            标签
+          </a>
+        
       
-    
+        
+          <a href="https://Shannonwu.github.io/post/introduction/" class="site-nav" target="_blank">
+            关于
+          </a>
+        
       
-        <a href="https://Shannonwu.github.io/tags" class="menu" target="_blank">
-          标签
-        </a>
-      
-    
-      
-        <a href="https://Shannonwu.github.io/post/introduction/" class="menu" target="_blank">
-          关于
-        </a>
-      
-    
+    </div>
   </div>
-  <div class="social-container">
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-        <a href="https://github.com/Shannonwu" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
+        
+          <a class="social-link" href="https://github.com/Shannonwu" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
       
-    
+        
       
-        <a href="https://twitter.com/SWBronte" target="_blank">
-          <i class="fab fa-twitter"></i>
-        </a>
+        
+          <a class="social-link" href="https://weibo.com/1590443300/profile?topnav=1&amp;wvr=6" target="_blank">
+            <i class="fab fa-weibo"></i>
+          </a>
+        
       
-    
+        
+          <a class="social-link" href="https://www.zhihu.com/people/wu-yi-hua-324/activities" target="_blank">
+            <i class="fab fa-zhihu"></i>
+          </a>
+        
       
-        <a href="https://weibo.com/1590443300/profile?topnav=1&amp;wvr=6" target="_blank">
-          <i class="fab fa-weibo"></i>
-        </a>
+        
       
-    
-      
-        <a href="https://www.zhihu.com/people/wu-yi-hua-324/activities" target="_blank">
-          <i class="fab fa-zhihu"></i>
-        </a>
-      
-    
-      
-    
+    </div>
+    <div class="site-description">
+      版权归作者所有，任何形式转载请联系作者。
+作者：Psychopunk（来自豆瓣）
+来源：https://www.douban.com/note/773718079/
+
+彼之双眸、双唇和双手，
+公共高速。
+掌，若卡车停泊，
+在街角低沉隆隆作响。
+眼似银行服务窗口
+外邦交易。
+我爱你身躯的全体
+友朋相拥你的郊区
+农庄点头示意 但我知道小径
+通向你的荒野。
+那虽非我的最爱，
+但我们几乎常常 孤身于彼方，
+它虽恐怖却死寂。
+
+by 盖里·斯奈德
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://shannonwu.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
 </div>
 
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              Hello Gridea
-            </h2>
-            <div class="post-info">
-              <time class="post-time">
-                · 2018-12-12 ·
-              </time>
-              
-                <a href="https://shannonwu.github.io/tag/gridea" class="post-tag">
-                  # Gridea
-                </a>
-              
-            </div>
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">Hello Gridea</h2>
+            <div class="post-date">2018-12-12</div>
             
-              <div class="post-feature-image" style="background-image: url('https://shannonwu.github.io/post-images/hello-gridea.png')">
+              <div class="feature-container" style="background-image: url('https://shannonwu.github.io/post-images/hello-gridea.png')">
               </div>
             
             <div class="post-content">
@@ -130,49 +176,73 @@
 <p>😘 Enjoy~</p>
 
             </div>
-          </article>
+            
+              <div class="tag-container">
+                
+                  <a href="https://shannonwu.github.io/tag/gridea" class="tag">
+                    Gridea
+                  </a>
+                
+              </div>
+            
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
         </div>
-
-        
-
-        
-          
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
-<script>
-
-  var gitalk = new Gitalk({
-    clientID: '8050f9e2ddcf03002f2a',
-    clientSecret: 'b78f1303bf522d5f19c3c12ce7b437058b331ed5',
-    repo: 'Shannonwu.github.io',
-    owner: 'Shannonwu',
-    admin: ['Shannonwu'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-          
-
-          
-        
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
-  <a class="rss" href="https://shannonwu.github.io/atom.xml" target="_blank">RSS</a>
-</div>
-
-<script>
-  hljs.initHighlightingOnLoad()
-</script>
-
       </div>
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '8050f9e2ddcf03002f2a',
+        clientSecret: 'b78f1303bf522d5f19c3c12ce7b437058b331ed5',
+        repo: 'Shannonwu.github.io',
+        owner: 'Shannonwu',
+        admin: ['Shannonwu'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
   </body>
 </html>
